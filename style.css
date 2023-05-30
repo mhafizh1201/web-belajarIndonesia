@@ -1,0 +1,212 @@
+.navbar {
+  background-color: #5c63ad;
+  padding: 0% 10%;
+}
+.nav-link {
+  color: #e0e0e0;
+}
+.activePage {
+  color: rgb(255, 255, 255);
+  font-weight: 450;
+}
+.id {
+  margin: auto;
+}
+.fa-globe {
+  padding-right: 10%;
+  color: #e0e0e0;
+}
+.hero {
+  background-image: url("assets/background-hero.png");
+  background-size: cover;
+  height: 90vh;
+}
+.banner-hero {
+  transform: translate(20%, 100%);
+  width: 50%;
+  font-size: 1.3vw;
+}
+.img-box {
+  overflow: hidden;
+  transition: 10ms;
+}
+.card-img-top:hover {
+  scale: 1.1;
+}
+.btn {
+  background-color: #00c363;
+  color: #ffff;
+  border: none;
+}
+.btn:hover {
+  background-color: #46f09b;
+  color: #e0fff0;
+}
+.text-btn:hover {
+  color: #ffff;
+  transition-delay: 0.1s;
+}
+.inline {
+  display: inline;
+}
+h2 {
+  text-align: center;
+}
+.card {
+  float: left;
+}
+.section-ver1 {
+  padding: 2% 0%;
+}
+.section-ver2 {
+  padding: 2% 0%;
+  background-color: #f4f5ff;
+}
+
+.section-title {
+  padding: 2%;
+}
+.img-founder {
+  width: 80%;
+}
+
+/* ARTIKEL SECTION */
+
+.set-row {
+  margin: 0%;
+  padding: 0%;
+}
+div.gallery {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+  transform: scale(1.05);
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 15%;
+}
+div.gallery-forsidebar img {
+  width: 100%;
+  height: auto;
+  border-radius: 15%;
+}
+.judul-event {
+  margin-top: 8%;
+}
+.desc-forsidebar {
+  margin-left: 25%;
+}
+.judul-sidebar {
+  margin-bottom: 0%;
+}
+.isi-sidebar {
+  font-size: 0.7vw;
+  width: 90%;
+}
+.responsive {
+  padding: 0 15px;
+  float: left;
+  width: 33.33%;
+}
+.section-event {
+  text-align: left;
+  margin: 0% 0% 0% 3%;
+  padding: 0%;
+}
+.section-berita {
+  text-align: left;
+  padding: 0%;
+  margin: 0%;
+}
+.section-posterMahasiwa {
+  text-align: left;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url("assets/coolvetica/coolvetica\ rg.otf");
+}
+.card-testi{
+  float: left;
+}
+.container {
+  margin: auto;
+}
+.maincolor {
+  background-color: #5c63ad;
+}
+.socialMedia {
+  display: float;
+  gap: 0.5em;
+  padding: 2%;
+}
+.cardMedia {
+  width: 40px;
+  height: 40px;
+  margin:0% 1%;
+  outline: none;
+  border: none;
+  background: #5c63ad;
+  border-radius: 20%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.2s ease-in-out;
+}
+.logososmed {
+  fill: #ffffff;
+}
+.card1:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+.card1:hover .instagram {
+  fill: white;
+}
+.card2:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #03a9f4;
+}
+.card2:hover .twitter {
+  fill: white;
+}
+.card3:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: rgb(34, 199, 48);
+}
+.card3:hover .github {
+  fill: white;
+}
+.card4:hover {
+  cursor: pointer;
+  scale: 1.1;
+  background-color: #F61C0D;
+}
+.card4:hover .discord {
+  fill: white;
+}
+.titleinFooter {
+  color: #f4f5ff;
+  font-family: Coolvetica;
+  font-size: 2vw;
+  letter-spacing: 3px;
+
+}
